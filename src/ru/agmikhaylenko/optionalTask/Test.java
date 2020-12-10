@@ -4,19 +4,19 @@ import java.util.Arrays;
 
 /**
  * Задание. Ввести n чисел с консоли.
- *
+ * <p>
  * 1.     Найти самое короткое и самое длинное число. Вывести найденные числа и их длину.
- *
+ * <p>
  * 2.     Вывести числа в порядке возрастания (убывания) значений их длины.
- *
+ * <p>
  * 3.     Вывести на консоль те числа, длина которых меньше (больше) средней длины по всем числам, а также длину.
- *
+ * <p>
  * 4.     Найти число, в котором количество различных цифр минимально. Если таких чисел несколько, найти первое из них.
- *
+ * <p>
  * 5.     Найти количество чисел, содержащих только четные цифры, а среди оставшихся — количество чисел с равным числом четных и нечетных цифр.
- *
+ * <p>
  * 6.     Найти число, цифры в котором идут в строгом порядке возрастания. Если таких чисел несколько, найти первое из них.
- *
+ * <p>
  * 7.     Найти число, состоящее только из различных цифр. Если таких чисел несколько, найти первое из них.
  */
 public class Test {
@@ -27,6 +27,7 @@ public class Test {
     public static void main(String[] args) {
         Test test = new Test();
         test.go(args);
+
     }
 
     public void go(String[] args) {
@@ -93,7 +94,8 @@ public class Test {
     }
 
     private void printCountOnlyEvenDigits() {
-        int countEvenOnly = 0, countBalanceEvenAndOdd = 0;
+        int countEvenOnly = 0;
+        int countBalanceEvenAndOdd = 0;
         for (Number number : arrayNumber) {
             if (number.getEvenCount() == number.getBitDepth())
                 countEvenOnly++;
@@ -119,6 +121,4 @@ public class Test {
                 System.out.println(number.getValue() + ", length = " + number.getBitDepth());
         }
     }
-
-
 }
