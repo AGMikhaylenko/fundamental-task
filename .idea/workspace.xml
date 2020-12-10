@@ -29,25 +29,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ConvertorMonth">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="ConvertorMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.agmikhaylenko.mainTask.ConvertorMonth" />
       <module name="fundamental-task" />
       <option name="PROGRAM_PARAMETERS" value="9" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.agmikhaylenko.mainTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.agmikhaylenko.mainTask.Hello" />
-      <module name="fundamental-task" />
-      <option name="PROGRAM_PARAMETERS" value="1,2,3,4,5,6,7,8,9,10" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.agmikhaylenko.mainTask.*" />
@@ -100,20 +86,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.agmikhaylenko.optionalTask.Test" />
+      <module name="fundamental-task" />
+      <option name="PROGRAM_PARAMETERS" value="123 46578 987" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.agmikhaylenko.optionalTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Hello" />
       <item itemvalue="Application.ReverseArguments" />
       <item itemvalue="Application.RandomNumber" />
       <item itemvalue="Application.SumAndMultiplication" />
       <item itemvalue="Application.ConvertorMonth" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ConvertorMonth" />
         <item itemvalue="Application.SumAndMultiplication" />
         <item itemvalue="Application.RandomNumber" />
         <item itemvalue="Application.ReverseArguments" />
-        <item itemvalue="Application.Hello" />
       </list>
     </recent_temporary>
   </component>
@@ -129,25 +129,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607550884640">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607605814496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607550884640" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1607550889877">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607605814496" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1607606135390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607550889877" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1607550889877">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607606135390" />
+    <state x="713" y="222" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607589583324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607550889877" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1607550889877">
+    <state x="713" y="222" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607589583324" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1607606744045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607550889877" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1607550889877">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607606744045" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1607606744045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607550889877" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607606744045" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1607606744045">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607606744045" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1607606744045">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607606744045" />
   </component>
 </project>
